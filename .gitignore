@@ -1,0 +1,19 @@
+# OS / filesystem cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node tooling (only if you ever add a build step / use npx locally)
+node_modules/
+npm-debug.log*
+.npm/
+
+# Logs
+*.log
