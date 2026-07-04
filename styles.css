@@ -387,7 +387,7 @@ nav.scrolled::after { opacity: 0.85; }
 /* -------------------- 13. Contact -------------------- */
 .contact-content { max-width: 600px; margin: 0 auto; text-align: center; }
 .contact-photo {
-  width: 132px; height: 132px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.4rem;
+  width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.4rem;
   border: 2px solid var(--accent-color); box-shadow: var(--shadow-glow);
 }
 .contact-text { font-size: var(--fs-base); color: var(--text-secondary); margin-bottom: 1.85rem; line-height: 1.75; }
