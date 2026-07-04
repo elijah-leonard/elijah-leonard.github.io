@@ -341,11 +341,11 @@ nav.scrolled::after { opacity: 0.85; }
 .project-description { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.7; margin-bottom: 1rem; flex: 1; }
 .project-tech { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
 .tech-tag {
-  background: var(--accent-soft); color: var(--accent-color); padding: 0.28rem 0.7rem; border-radius: var(--radius-pill);
-  font-size: 0.74rem; font-weight: 500; border: 1px solid rgba(224, 168, 76, 0.22); transition: var(--transition);
+  background: rgba(148, 163, 184, 0.10); color: #b4bccb; padding: 0.28rem 0.7rem; border-radius: var(--radius-pill);
+  font-size: 0.74rem; font-weight: 500; border: 1px solid rgba(148, 163, 184, 0.22); transition: var(--transition);
 }
 .project-links { display: flex; gap: 1rem; margin-top: auto; padding-top: 0.25rem; }
-.project-link { color: var(--accent-color); font-weight: 500; font-size: 0.9rem; transition: var(--transition); display: inline-flex; align-items: center; gap: 0.3rem; }
+.project-link { color: var(--accent-color); font-weight: 500; font-size: 1rem; transition: var(--transition); display: inline-flex; align-items: center; gap: 0.3rem; }
 .project-link::after { content: '→'; display: inline-block; margin-left: 2px; transition: transform 0.28s var(--ease-spring); }
 .project-link:hover { color: var(--accent-2); }
 .project-link:hover::after { transform: translateX(4px); }
