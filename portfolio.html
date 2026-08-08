@@ -86,6 +86,21 @@
         <p class="work-claim"><strong>I tell businesses what to build &mdash; then I direct the build.</strong></p>
         <div class="projects-grid">
 
+          <!-- Hedge Lab — two-seat grain hedge desk. The whole card is the hit area:
+               .project-link--stretched throws a pseudo-element over the card, so there
+               is exactly one anchor (no nested <a>, nothing duplicated for screen readers). -->
+          <article class="project-card project-card--linked fade-in">
+            <img class="project-shot" src="assets/hedge-lab-card.png" alt="Hedge Lab &mdash; the hedge-lab logo and &ldquo;Merchant. Trader. Hedge.&rdquo; tagline beside the Trader workbench: a grain coverage book, a corn futures chart, and a payoff scatter plot" width="225" height="225" loading="lazy">
+            <h3 class="project-title">Hedge Lab</h3>
+            <p class="project-description">A hedge desk for grain derivatives. This is a handoff between the Merchant and the Trader: the merchant quotes a farmer an Asian collar, the trader hedges it on CBOT. One shared book, two languages &mdash; producer-keyed for the merchant, portfolio-keyed for the trader. Black-76 and Monte Carlo pricing on real CME settle data.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span><span class="tech-tag">Starlette</span><span class="tech-tag">React</span><span class="tech-tag">Options Pricing</span><span class="tech-tag">Monte Carlo</span><span class="tech-tag">DDD</span>
+            </div>
+            <div class="project-links">
+              <a class="project-link project-link--stretched" href="https://hedge-lab.fly.dev/">Live demo</a>
+            </div>
+          </article>
+
           <article class="project-card fade-in">
             <img class="project-cover" src="assets/mdd-cover.png" alt="Cover of the book Meaning-Driven Design — A Framework for Solution Architecture" width="150" loading="lazy">
             <h3 class="project-title">Meaning-Driven Design</h3>
@@ -96,19 +111,6 @@
             <div class="project-links">
               <!-- link temporarily disabled: <a class="project-link" href="https://elijah-leonard.github.io/meaning-driven-design/">Read it</a> -->
               <span class="project-link--todo">Read it &mdash; coming soon</span>
-            </div>
-          </article>
-
-          <!-- Hedge Lab — two-seat grain hedge desk; demo link pending first release -->
-          <article class="project-card fade-in">
-            <img class="project-shot" src="assets/hedge-lab-card.png" alt="Hedge Lab &mdash; the hedge-lab logo and &ldquo;Merchant. Trader. Hedge.&rdquo; tagline beside the Trader workbench: a grain coverage book, a corn futures chart, and a payoff scatter plot" width="225" height="225" loading="lazy">
-            <h3 class="project-title">Hedge Lab</h3>
-            <p class="project-description">A hedge desk for grain derivatives. This is a handoff between the Merchant and the Trader: the merchant quotes a farmer an Asian collar, the trader hedges it on CBOT. One shared book, two languages &mdash; producer-keyed for the merchant, portfolio-keyed for the trader. Black-76 and Monte Carlo pricing on real CME settle data.</p>
-            <div class="project-tech">
-              <span class="tech-tag">Python</span><span class="tech-tag">Starlette</span><span class="tech-tag">React</span><span class="tech-tag">Options Pricing</span><span class="tech-tag">Monte Carlo</span><span class="tech-tag">DDD</span>
-            </div>
-            <div class="project-links">
-              <span class="project-link--todo">Live demo &mdash; coming soon</span>
             </div>
           </article>
 
